@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Ayaan Naseer — Creative Web Developer Portfolio">
+  <title>Ayyan Naseer | Creative Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="progress-bar" id="progressBar"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <header class="header" id="top">
+    <a class="logo" href="#home"><span class="logo-icon">A<span>.</span></span><span>AYAAN <b>NASEER</b></span></a>
+    <nav class="nav" id="nav">
+      <a class="nav-link active" href="#home">Home</a>
+      <a class="nav-link" href="#about">About</a>
+      <a class="nav-link" href="#skills">Skills</a>
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+    <div class="header-right">
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle light and dark theme"><span id="themeIcon">☼</span><span id="themeLabel">Light mode</span></button>
+      <a class="header-contact" href="mailto:ayyannaseer27@gmail.com?subject=Portfolio%20Enquiry">Let's talk <span>↗</span></a>
+      <button class="menu-btn" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"><i></i><i></i></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="home">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-text reveal">
+        <p class="eyebrow"><span class="live-dot"></span> AVAILABLE FOR CREATIVE PROJECTS</p>
+        <p class="hello">HELLO, I'M</p>
+        <h1>Ayyan <span class="gradient">Naseer.</span></h1>
+        <h2>I build digital experiences<br><span class="stroke-text">that feel different.</span></h2>
+        <p class="hero-desc">A passionate web developer focused on clean code, modern interfaces, and memorable experiences on every screen.</p>
+        <div class="hero-actions">
+          <a class="button primary magnetic" href="#projects">Explore my work <span>↗</span></a>
+          <a class="button secondary" href="mailto:ayyannaseer27@gmail.com?subject=Let's%20work%20together">Get in touch <span>→</span></a>
+        </div>
+        <div class="hero-facts">
+          <div><strong>04<span>+</span></strong><small>Core technologies</small></div><i></i>
+          <div><strong>∞</strong><small>Ideas to explore</small></div><i></i>
+          <div><strong>100<span>%</span></strong><small>Creative energy</small></div>
+        </div>
+      </div>
+      <div class="hero-art reveal delay-2">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="developer-card">
+          <div class="card-top"><span class="dots"><i></i><i></i><i></i></span><span>Ayyan.naseer / portfolio</span><span>•••</span></div>
+          <div class="avatar"><div class="avatar-light"></div><span>AN</span><b class="float-symbol symbol-one">&lt;/&gt;</b><b class="float-symbol symbol-two">✳</b><b class="float-symbol symbol-three">{ }</b></div>
+          <div class="card-bottom"><div><small>CREATIVE WEB DEVELOPER</small><strong>AyYan Naseer</strong></div><span class="online"><i></i> Online</span></div>
+        </div>
+        <div class="floating-label label-one">✦ Design-minded developer</div>
+        <div class="floating-label label-two">⌘ Turning ideas into code</div>
+      </div>
+      <a class="scroll-down" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <div class="marquee"><div class="marquee-track"><span>DESIGN</span><b>✳</b><span>DEVELOPMENT</span><b>✳</b><span>INNOVATION</span><b>✳</b><span>EXPERIENCE</span><b>✳</b><span>DESIGN</span><b>✳</b><span>DEVELOPMENT</span><b>✳</b><span>INNOVATION</span><b>✳</b><span>EXPERIENCE</span><b>✳</b></div></div>
+
+    <section class="section wrap" id="about">
+      <div class="section-title reveal"><p class="eyebrow">01 / A LITTLE ABOUT ME</p><h2>Curious mind.<br><span class="gradient">Creative builder.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal"><p class="lead">I’m Ayaan, a developer who enjoys turning ideas into polished, useful digital products.</p><p>I love exploring how websites work, learning new technologies, and making interfaces that are simple to use and beautiful to look at. This portfolio is my starting point — I’ll keep adding new work and details as I grow.</p><a class="under-link" href="#contact">Have an idea? Let's connect <span>↗</span></a></div>
+        <div class="stats-grid reveal delay-1"><article><strong>01</strong><span>Always learning</span><small>Growing with every project</small></article><article><strong>∞</strong><span>Ideas to explore</span><small>Curiosity has no limit</small></article><article><strong>WEB</strong><span>My creative space</span><small>From layout to functionality</small></article></div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="wrap">
+        <div class="section-title reveal"><p class="eyebrow">02 / WHAT I WORK WITH</p><h2>Tools of my <span class="gradient">trade.</span></h2><p class="section-subtitle">A growing toolkit for building modern websites and digital experiences.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-no">01</span><div class="skill-icon html">5</div><h3>HTML5</h3><p>Semantic structure and accessible web foundations.</p><div class="skill-meter"><span style="--width:90%"></span></div><small>STRUCTURE</small></article>
+          <article class="skill-card reveal delay-1"><span class="skill-no">02</span><div class="skill-icon css">✳</div><h3>CSS3</h3><p>Responsive layouts, visual details, and motion.</p><div class="skill-meter"><span style="--width:86%"></span></div><small>STYLING</small></article>
+          <article class="skill-card reveal delay-2"><span class="skill-no">03</span><div class="skill-icon js">JS</div><h3>JavaScript</h3><p>Interactive features and dynamic experiences.</p><div class="skill-meter"><span style="--width:76%"></span></div><small>INTERACTION</small></article>
+          <article class="skill-card reveal delay-3"><span class="skill-no">04</span><div class="skill-icon php">php</div><h3>PHP</h3><p>Server-side logic and practical web functionality.</p><div class="skill-meter"><span style="--width:70%"></span></div><small>BACKEND</small></article>
+        </div>
+        <div class="extras reveal"><span>ALSO EXPLORING</span><b>Bootstrap</b><b>WordPress</b><b>UI / UX</b><b>MySQL</b><b>Git basics</b></div>
+      </div>
+    </section>
+
+    <section class="section wrap projects-section" id="projects">
+      <div class="projects-head">
+        <div class="section-title reveal"><p class="eyebrow">03 / SELECTED CONCEPTS</p><h2>Things I've <span class="gradient">built.</span></h2><p class="section-subtitle">Explore three sample project concepts. Replace these with your real work whenever you're ready.</p></div>
+        <div class="slider-buttons reveal"><button id="prevSlide" aria-label="Previous project">←</button><button id="nextSlide" aria-label="Next project">→</button></div>
+      </div>
+      <div class="slider-viewport reveal" id="sliderViewport">
+        <div class="project-slider" id="projectSlider">
+          <article class="project-card"><div class="project-image"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=85" alt="Analytics dashboard interface concept" loading="lazy"><span class="image-number">01 / 03</span><a href="mailto:ayyannaseer27@gmail.com?subject=Analytics%20Dashboard%20Project" class="image-link" aria-label="Email about analytics dashboard">↗</a></div><div class="project-details"><div><small>WEB DESIGN · DASHBOARD</small><h3>Analytics Dashboard</h3><p>A clean dashboard concept with data-focused cards and a modern layout.</p></div><span class="project-arrow">↗</span></div><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+          <article class="project-card"><div class="project-image"><img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=85" alt="Online shopping and ecommerce concept" loading="lazy"><span class="image-number">02 / 03</span><a href="mailto:ayyannaseer27@gmail.com?subject=Online%20Store%20Project" class="image-link" aria-label="Email about online store">↗</a></div><div class="project-details"><div><small>E-COMMERCE · STORE</small><h3>Modern Online Store</h3><p>A product-first shopping experience with clear navigation and bold visuals.</p></div><span class="project-arrow">↗</span></div><div class="tags"><span>PHP</span><span>CSS</span><span>MySQL</span></div></article>
+          <article class="project-card"><div class="project-image"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=85" alt="Creative developer workspace with laptop" loading="lazy"><span class="image-number">03 / 03</span><a href="mailto:ayyannaseer27@gmail.com?subject=Portfolio%20Website%20Project" class="image-link" aria-label="Email about portfolio website">↗</a></div><div class="project-details"><div><small>PERSONAL BRAND · PORTFOLIO</small><h3>Creative Portfolio</h3><p>A personal website concept to present skills, work, and personality.</p></div><span class="project-arrow">↗</span></div><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></article>
+        </div>
+      </div>
+      <div class="slider-footer"><div class="slider-track"><span id="sliderProgress"></span></div><strong id="sliderCount">01 — 03</strong><small>USE ARROWS OR SWIPE TO EXPLORE</small></div>
+      <p class="project-note">These are sample concepts for your portfolio. Add your actual screenshots, descriptions, and project links before presenting them as completed work.</p>
+    </section>
+
+    <section class="statement"><div class="statement-glow"></div><div class="statement-content reveal"><span>“</span><h2>Good design is obvious.<br><em class="gradient">Great design feels effortless.</em></h2><p>MY APPROACH TO EVERY PIXEL AND EVERY LINE OF CODE.</p></div></section>
+
+    <section class="section wrap contact-section" id="contact">
+      <div class="contact-panel reveal"><div class="contact-light"></div><div class="contact-copy"><p class="eyebrow">04 / YOUR TURN</p><h2>Have a project<br>in <span class="gradient">mind?</span></h2><p>Have an idea, a question, or just want to say hello? Send me an email and let's make something great.</p><a class="button primary" href="mailto:ayyannaseer27@gmail.com?subject=Portfolio%20Enquiry">Email Ayaan <span>↗</span></a><a class="email-address" href="mailto:ayyannaseer27@gmail.com">ayyannaseer27@gmail.com</a></div><div class="contact-art"><span>LET'S</span><strong>CREATE</strong><span>SOMETHING</span><strong class="stroke-text">GREAT.</strong></div></div>
+    </section>
+  </main>
+
+  <footer class="footer wrap"><a class="logo" href="#home"><span class="logo-icon">A<span>.</span></span><span>AYAAN <b>NASEER</b></span></a><p>Designed with curiosity. Built with code.</p><a class="back-top" href="#top">BACK TO TOP ↑</a><small>© <span id="year"></span> Ayaan Naseer. All rights reserved.</small></footer>
+</body>
+</html>
